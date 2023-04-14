@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body main{
+    padding: 5rem;
+    background-color: rgb(255, 239, 203);
+}
+
+header{
+    background-image: url(./img-fhana/13857-1386737575.jpg);
+    background-size: cover;
+    opacity: 70%;
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: rgb(255, 165, 31);
+    text-align: justify;
+    font-size: 20px;
+}
+
+.banda{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sobre-banda{
+    font-family: cursive;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+    font-size: 32px;
+}
+.musicas{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.audios{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.clipes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 60px;
+    gap: 40px;
+}
+
+iframe{
+    padding-top: 40px;
+}
+
+audio{
+    padding-top: 40px;
+}
+
+h1{
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 4px 5px rgb(247, 136, 10);
+    /* text-decoration: underline overline;  /*Ficou feio mais vai ficar aqui sim*/
+    border-radius: 15px;
+    font-family: cursive;
+}
+
+.wow{
+    color: palevioletred;
+}
+
+.favoritismo{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 4px 5px rgb(247, 136, 10);
+    /* text-decoration: underline overline;  /*Ficou feio mais vai ficar aqui sim*/
+    border-radius: 15px;
+    font-family: cursive;
+}
+
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(163, 92, 0);
+    height: 5rem auto;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(255, 226, 173);
+}

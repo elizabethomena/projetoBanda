@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --azul2-: rgb(2, 3, 66);
+    --azul-: rgb(5, 9, 219);
+    --blued-: rgb(47, 0, 156);
+    --roxo-: rgb(96, 0, 134);
+    --darklilas-: rgb(138, 70, 165);
+    --red-: rgb(255, 9, 9);
+}
+
+button, #blackpink{
+    background-image: url(./img/blackPink/channels4_profile.jpg);
+    background-size: cover;
+    border: none;
+    width: 500px;
+    height: 380px;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+    border-radius: 5PX;
+}
+
+header{
+    padding: 20rem;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(40, 13, 65);
+    color: aliceblue;
+    border: solid black;
+}
+
+body{
+    background: linear-gradient(to right, var(--azul2-), var(--azul-), var(--blued-), var(--roxo-), var(--darklilas-), var(--red-));
+    background-color: rgb(50, 18, 77);
+}
+
+header{
+        /* background-color: rgb(73, 0, 92);
+        animation-name: example;
+        animation-duration: 15s;
+      }
+      
+      @keyframes example {
+        from {background-color: rgb(95, 0, 75);}
+        to {background-color: rgb(102, 2, 141);}
+        to {background-color: rgb(151, 0, 25);}
+        to {background-color: rgb(37, 1, 134);}
+        to {background-color: rgb(105, 13, 128);}
+        to {background-color: rgb(1, 67, 143);}
+        to {background-color: rgb(118, 3, 163);}
+        to {background-color: rgb(134, 33, 50);}
+        to {background-color: rgb(77, 49, 151);}
+        to {background-color: rgb(134, 70, 150);}
+        to {background-color: rgb(2, 94, 199);}
+      } */
+    background-image: radial-gradient(circle, rgb(21, 2, 75), rgb(67, 0, 80), rgb(39, 1, 1));
+  }
+
+#marina{
+    background-image: url(./yorushikaefh/unnamed.jpg);
+}
+
+#pinkFloyd{
+    background-image: url(./img/pinkFloyd//ng7397508.jpg);
+}
+
+#ado{
+    background-image: url(./yorushikaefh/ab67616d0000b273fc3a1f7951c9f023e5b13b69.jpg);
+}
+
+button img{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    border-radius: 50%;
+    width: 90px;
+    margin: auto;
+    height: 90px;
+}
+
+#nomes{
+    margin: auto;
+    background-color: aliceblue;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 7px;
+}
+
+.foto{
+    gap: 3rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 2px 5px;
+}
+
+#nossasinfo{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+
+
+#bandas1, #bandas2{
+    display: flex;
+    gap: 3rem;
+    padding: 1.2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.ftos a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    display: inline-block;
+}
+.ftos{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(50, 18, 77)
+}
